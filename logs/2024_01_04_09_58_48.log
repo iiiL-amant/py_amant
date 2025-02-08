@@ -1,0 +1,93 @@
+2024-01-04 09:58:48,880 - 浏览器初始化配置 - INFO - You had select Chrome browser.
+2024-01-04 09:58:48,880 - 浏览器初始化配置 - INFO - The test server url is: http:///admin/account/login.html
+2024-01-04 09:58:50,336 - 浏览器初始化配置 - INFO - Starting Chrome browser.
+2024-01-04 09:58:52,761 - 浏览器初始化配置 - INFO - Open url: http:///admin/account/login.html.
+2024-01-04 09:58:52,901 - 浏览器初始化配置 - INFO - Maximize the current window.
+2024-01-04 09:58:55,964 - 测试流程 - WARNING - 显式等待元素失败.
+2024-01-04 09:58:55,967 - 测试流程 - ERROR - 输入框输入失败
+2024-01-04 09:58:55,968 - 测试流程 - ERROR - {NoSuchWindowException('no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.199)', None, ['Backtrace:', '\tGetHandleVerifier [0x006BA813+48355]', '\t(No symbol) [0x0064C4B1]', '\t(No symbol) [0x00555358]', '\t(No symbol) [0x0053D293]', '\t(No symbol) [0x0059E37B]', '\t(No symbol) [0x005AC473]', '\t(No symbol) [0x0059A536]', '\t(No symbol) [0x005782DC]', '\t(No symbol) [0x005793DD]', '\tGetHandleVerifier [0x0091AABD+2539405]', '\tGetHandleVerifier [0x0095A78F+2800735]', '\tGetHandleVerifier [0x0095456C+2775612]', '\tGetHandleVerifier [0x007451E0+616112]', '\t(No symbol) [0x00655F8C]', '\t(No symbol) [0x00652328]', '\t(No symbol) [0x0065240B]', '\t(No symbol) [0x00644FF7]', '\tBaseThreadInitThunk [0x76DE0099+25]', '\tRtlGetAppContainerNamedObjectPath [0x77847B6E+286]', '\tRtlGetAppContainerNamedObjectPath [0x77847B3E+238]', ''])}
+2024-01-04 09:58:55,970 - 测试流程 - WARNING - 截图失败： Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006BA813+48355]
+	(No symbol) [0x0064C4B1]
+	(No symbol) [0x00555358]
+	(No symbol) [0x0053D293]
+	(No symbol) [0x0059E37B]
+	(No symbol) [0x005AC473]
+	(No symbol) [0x0059A536]
+	(No symbol) [0x005782DC]
+	(No symbol) [0x005793DD]
+	GetHandleVerifier [0x0091AABD+2539405]
+	GetHandleVerifier [0x0095A78F+2800735]
+	GetHandleVerifier [0x0095456C+2775612]
+	GetHandleVerifier [0x007451E0+616112]
+	(No symbol) [0x00655F8C]
+	(No symbol) [0x00652328]
+	(No symbol) [0x0065240B]
+	(No symbol) [0x00644FF7]
+	BaseThreadInitThunk [0x76DE0099+25]
+	RtlGetAppContainerNamedObjectPath [0x77847B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77847B3E+238]
+.
+2024-01-04 09:58:55,973 - 测试流程 - WARNING - 显式等待元素失败.
+2024-01-04 09:58:55,975 - 测试流程 - ERROR - 输入框输入失败
+2024-01-04 09:58:55,975 - 测试流程 - ERROR - {NoSuchWindowException('no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.199)', None, ['Backtrace:', '\tGetHandleVerifier [0x006BA813+48355]', '\t(No symbol) [0x0064C4B1]', '\t(No symbol) [0x00555358]', '\t(No symbol) [0x0053D293]', '\t(No symbol) [0x0059E37B]', '\t(No symbol) [0x005AC473]', '\t(No symbol) [0x0059A536]', '\t(No symbol) [0x005782DC]', '\t(No symbol) [0x005793DD]', '\tGetHandleVerifier [0x0091AABD+2539405]', '\tGetHandleVerifier [0x0095A78F+2800735]', '\tGetHandleVerifier [0x0095456C+2775612]', '\tGetHandleVerifier [0x007451E0+616112]', '\t(No symbol) [0x00655F8C]', '\t(No symbol) [0x00652328]', '\t(No symbol) [0x0065240B]', '\t(No symbol) [0x00644FF7]', '\tBaseThreadInitThunk [0x76DE0099+25]', '\tRtlGetAppContainerNamedObjectPath [0x77847B6E+286]', '\tRtlGetAppContainerNamedObjectPath [0x77847B3E+238]', ''])}
+2024-01-04 09:58:55,978 - 测试流程 - WARNING - 截图失败： Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006BA813+48355]
+	(No symbol) [0x0064C4B1]
+	(No symbol) [0x00555358]
+	(No symbol) [0x0053D293]
+	(No symbol) [0x0059E37B]
+	(No symbol) [0x005AC473]
+	(No symbol) [0x0059A536]
+	(No symbol) [0x005782DC]
+	(No symbol) [0x005793DD]
+	GetHandleVerifier [0x0091AABD+2539405]
+	GetHandleVerifier [0x0095A78F+2800735]
+	GetHandleVerifier [0x0095456C+2775612]
+	GetHandleVerifier [0x007451E0+616112]
+	(No symbol) [0x00655F8C]
+	(No symbol) [0x00652328]
+	(No symbol) [0x0065240B]
+	(No symbol) [0x00644FF7]
+	BaseThreadInitThunk [0x76DE0099+25]
+	RtlGetAppContainerNamedObjectPath [0x77847B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77847B3E+238]
+.
+2024-01-04 09:58:55,981 - 测试流程 - WARNING - 显式等待元素失败.
+2024-01-04 09:58:55,983 - 测试流程 - ERROR - 输入框输入失败
+2024-01-04 09:58:55,983 - 测试流程 - ERROR - {NoSuchWindowException('no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.199)', None, ['Backtrace:', '\tGetHandleVerifier [0x006BA813+48355]', '\t(No symbol) [0x0064C4B1]', '\t(No symbol) [0x00555358]', '\t(No symbol) [0x0053D293]', '\t(No symbol) [0x0059E37B]', '\t(No symbol) [0x005AC473]', '\t(No symbol) [0x0059A536]', '\t(No symbol) [0x005782DC]', '\t(No symbol) [0x005793DD]', '\tGetHandleVerifier [0x0091AABD+2539405]', '\tGetHandleVerifier [0x0095A78F+2800735]', '\tGetHandleVerifier [0x0095456C+2775612]', '\tGetHandleVerifier [0x007451E0+616112]', '\t(No symbol) [0x00655F8C]', '\t(No symbol) [0x00652328]', '\t(No symbol) [0x0065240B]', '\t(No symbol) [0x00644FF7]', '\tBaseThreadInitThunk [0x76DE0099+25]', '\tRtlGetAppContainerNamedObjectPath [0x77847B6E+286]', '\tRtlGetAppContainerNamedObjectPath [0x77847B3E+238]', ''])}
+2024-01-04 09:58:55,986 - 测试流程 - WARNING - 截图失败： Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x006BA813+48355]
+	(No symbol) [0x0064C4B1]
+	(No symbol) [0x00555358]
+	(No symbol) [0x0053D293]
+	(No symbol) [0x0059E37B]
+	(No symbol) [0x005AC473]
+	(No symbol) [0x0059A536]
+	(No symbol) [0x005782DC]
+	(No symbol) [0x005793DD]
+	GetHandleVerifier [0x0091AABD+2539405]
+	GetHandleVerifier [0x0095A78F+2800735]
+	GetHandleVerifier [0x0095456C+2775612]
+	GetHandleVerifier [0x007451E0+616112]
+	(No symbol) [0x00655F8C]
+	(No symbol) [0x00652328]
+	(No symbol) [0x0065240B]
+	(No symbol) [0x00644FF7]
+	BaseThreadInitThunk [0x76DE0099+25]
+	RtlGetAppContainerNamedObjectPath [0x77847B6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77847B3E+238]
+.
+2024-01-04 09:58:55,988 - 测试流程 - WARNING - 显式等待元素失败.

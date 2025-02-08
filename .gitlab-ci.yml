@@ -1,0 +1,15 @@
+stages:
+  - build
+  - test
+  - deploy
+
+test-job:
+  stage: test
+  tags:
+    - ui-auto_test
+  script:
+    - echo ${ENVIRONMENT}
+    - chmod 777 ./tools/chromedriver
+    - python3 ./TestRunner/Runner.py
+    - rm /usr/share/nginx/html/ui-auto-test/*.html #删除目录下的之前的html资源
+    - cp ./test_report/*.html /usr/share/nginx/html/ui-auto-test #拷贝测试结果网页到nginx静态网页资源下进行访问
